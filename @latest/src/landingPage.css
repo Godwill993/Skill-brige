@@ -68,8 +68,6 @@
 .landing-image img:hover {
   transform: scale(1.03);
 }
-
-/* --- Responsive Design --- */
 @media (max-width: 900px) {
   .landing {
     flex-direction: column-reverse;
