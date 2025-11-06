@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="nav-logo">Skill Bridge  </div>
+      <div className="nav-logo">Skill <span className="logo-style"> Bridge</span>  </div>
 
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <a href="#home" onClick={() => setIsOpen(false)}><FaHome /> Home</a>

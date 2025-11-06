@@ -15,7 +15,14 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+.logo-style{
+  background-color: #F4CA16;
 
+  color: #0a1f44;
+  padding: 0.2rem 0.6rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .nav-links {
   display: flex;
   gap: 1.5rem;

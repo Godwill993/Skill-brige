@@ -30,7 +30,7 @@
 
 
 .landing-btn {
-  background-color: #00b4d8;
+  background-color: #0a1f44;;
   color: #FeFeFe;
   padding: 0.8rem 2rem;
   border: none;
@@ -39,10 +39,12 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  border: 2px solid #F4CA16;
 }
 
 .landing-btn:hover {
   background-color: #F4CA16;
+  color:#0a1f44;
   transform: translateY(-2px);
 }
 
