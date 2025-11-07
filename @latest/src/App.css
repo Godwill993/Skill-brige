@@ -42,7 +42,6 @@
   color: #F4CA16;
 }
 
-/* Hamburger Menu */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -57,7 +56,6 @@
   border-radius: 2px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
