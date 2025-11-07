@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SignupForm.css";
+import "./form.css";
 import { FaGoogle, FaGithub } from "react-icons/fa";
 
 const SignupForm = () => {
