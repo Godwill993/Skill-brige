@@ -5,7 +5,7 @@ const InfoCard = ({ icon: Icon, title, description }) => {
   return (
     <div className="info-card">
       <div className="info-icon">
-        {/* ✅ Use the Icon component prop here */}
+     
         {Icon && <Icon size={40} />}
       </div>
       <h3 className="info-title">{title}</h3>
