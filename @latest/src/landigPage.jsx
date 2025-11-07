@@ -14,7 +14,6 @@ const LandingPage = () => {
       </div>
 
       <div className="landing-image">
-        {/* 🖼️ Replace the image below with your own captivating picture */}
         <img
           src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1000&q=80"
           alt="Students connecting with companies"
