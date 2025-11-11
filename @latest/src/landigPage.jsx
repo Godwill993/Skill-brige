@@ -1,9 +1,11 @@
 import React from "react";
 import "/src/landingPage.css";
 import SignupForm from "./form.jsx";
+import {HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 const LandingPage = () => {
   return (
+   
     <section className="landing">
       <div className="landing-content">
         <h1 className="landing-title">Connecting Students, Schools & Companies</h1>
