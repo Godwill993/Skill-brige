@@ -1,30 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import "/src/App.css";
-import { FaHome, FaInfoCircle, FaServicestack, FaEnvelope, } from "react-icons/fa";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => setIsOpen(!isOpen);
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Main from  "./main";
+import Form from "./form"
+import LandingPage from "./landigPage"
+function App() {
 
   return (
-    <nav className="navbar">
-      <div className="nav-logo">Skill <span className="logo-style"> Bridge</span>  </div>
+  <Router>
+  <Routes>
+     <Route path="/" element={<Main/>}/>
+     <Route path="/form" element={<Form/>}/>  
+     <Route path="/landingPage"/>
+   </Routes>
+  </Router> 
 
-      <div className={`nav-links ${isOpen ? "open" : ""}`}>
-        <a href="#home" onClick={() => setIsOpen(false)}><FaHome /> Home</a>
-        <a href="#about" onClick={() => setIsOpen(false)}><FaInfoCircle /> About</a>
-        <a href="#services" onClick={() => setIsOpen(false)}><FaServicestack /> Services</a>
-        <a href="#contact" onClick={() => setIsOpen(false)}><FaEnvelope /> Contact</a>
-      </div>
-
-      <div className="nav-toggle" onClick={toggleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </div>
-    </nav>
   );
 };
 
-export default Navbar;
+export default App;
 
