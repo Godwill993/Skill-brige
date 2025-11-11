@@ -2,6 +2,7 @@ import React from "react";
 import "/src/landingPage.css";
 import SignupForm from "./form.jsx";
 import {HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { Link } from "react-router-dom"
 
 const LandingPage = () => {
   return (
@@ -13,7 +14,7 @@ const LandingPage = () => {
           Bridging the gap between education and employment through innovation,
           collaboration, and opportunity.
         </p>
-        <button className="landing-btn">Get Started</button>
+        <button className="landing-btn"> <link to="/form"/>start </button>
       </div>
 
       <div className="landing-image">
