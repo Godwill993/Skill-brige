@@ -1,6 +1,5 @@
 import React from "react";
 import "/src/landingPage.css";
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import SignupForm from "./form.jsx";
 
 const LandingPage = () => {
@@ -21,11 +20,6 @@ const LandingPage = () => {
           alt="Students connecting with companies"
         />
       </div>
-      <Router>
-        <Routes>
-          <Route path="./form.jsx" element={<SignupForm />}></Route>
-        </Routes>
-      </Router>
     </section>
   );
 };
