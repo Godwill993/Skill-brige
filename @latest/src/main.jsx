@@ -4,7 +4,6 @@ import "./index.css";
 import Navi from "./navi.jsx";
 import LandingPage from "./landigPage.jsx";
 import FeaturesSection from "./card/cardprop.jsx";
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navi />
