@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/styles/landingPage.css";
+import "../styles/landingPage.css";
 import SignupForm from "../pages/form.jsx";
 import {HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Link } from "react-router-dom"
