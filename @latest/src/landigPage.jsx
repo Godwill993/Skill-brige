@@ -23,6 +23,7 @@ const LandingPage = () => {
           alt="Students connecting with companies"
         />
       </div>
+     
     </section>
   );
 };
