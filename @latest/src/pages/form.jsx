@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import  "../styles/form.css";
 import { FaGoogle, FaGithub } from "react-icons/fa";
 
-const SignupForm = () => {
+const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -84,4 +84,4 @@ const SignupForm = () => {
   );
 };
 
-export default SignupForm;
+export default Form;
