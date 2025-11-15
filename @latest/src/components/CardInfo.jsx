@@ -1,5 +1,5 @@
 import React from "react";
-import "./src/styles/CardInfo.css";
+import "../styles/CardInfo.css";
 
 const InfoCard = ({ icon: Icon, title, description }) => {
   return (
