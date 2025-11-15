@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/App.css";
 
 import { Routes, Route} from "react-router-dom";
-import { Form } from "./form.jsx"
-import { LandingPage } from "../components/landigPage.jsx"
+import Form  from "./form.jsx"
+import  LandingPage  from "../components/landigPage.jsx"
 function App() {
 
   return (
