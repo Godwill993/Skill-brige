@@ -2,9 +2,9 @@ import React from "react";
 import "/src/App.css";
 
 import {HashRouter as Router, Routes, Route} from "react-router-dom";
-import Main from  "./main";
+import Main from  "../main";
 import Form from "./form"
-import LandingPage from "./landigPage"
+import LandingPage from "../components/landigPage"
 function App() {
 
   return (
