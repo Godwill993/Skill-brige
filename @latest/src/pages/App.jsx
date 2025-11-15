@@ -1,20 +1,20 @@
 import React from "react";
 import "../styles/App.css";
 
-import {HashRouter as Router, Routes, Route} from "react-router-dom";
-import { Main } from  "../main";
+import { Routes, Route} from "react-router-dom";
+import {Login } from "./Login"
 import { Form } from "./form"
 import { LandingPage } from "../components/landigPage"
 function App() {
 
   return (
-  <Router>
+ 
   <Routes>
-     <Route path="/" element={<Form/>} />
+     <Route path="/" element={<Login/>} />
      <Route path="/form" element={<Form/>} />  
      <Route path="/landingPage"/>
    </Routes>
-  </Router> 
+  
 
   );
 };
