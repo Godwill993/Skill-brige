@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "/src/App.css";
+import "../styles/App.css";
 import { FaHome, FaInfoCircle, FaServicestack, FaEnvelope, } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
