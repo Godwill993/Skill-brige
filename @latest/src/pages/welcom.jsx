@@ -3,12 +3,15 @@ import ReactDOM from "react-dom/client";
 import Nav from "../components/navi.jsx";
 import LandingPage from "../components/landigPage.jsx";
 import "../index.css";
-import  App  from "./pages/App";
+import Cardprop from "../components/cardprop.jsx";
+import  App  from "./App";
  function  Welcome () {
   return (
   <>
     <Nav></Nav>
     <LandingPage></LandingPage>
+    <Cardprop></Cardprop>
+    
  </>
   );
 }
