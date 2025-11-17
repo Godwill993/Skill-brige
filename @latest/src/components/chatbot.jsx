@@ -13,7 +13,7 @@ export default function Chatbot() {
         position: fixed;
         bottom: 25px;
         right: 25px;
-        background: #0a84ff;
+        background: #0a1f44;
         color: white;
         border: none;
         border-radius: 50%;
@@ -30,7 +30,7 @@ export default function Chatbot() {
       }
 
       .chatbot-button:hover {
-        background: #006edc;
+        background: #0a1f44;
       }
 
       .chatbot-window {
@@ -55,7 +55,7 @@ export default function Chatbot() {
       }
 
       .chat-header {
-        background: #0a84ff;
+        background: #0a1f44;
         color: white;
         padding: 12px;
         text-align: center;
@@ -78,7 +78,7 @@ export default function Chatbot() {
       }
 
       .user-message {
-        background: #0a84ff;
+        background: #0a1f44;
         color: white;
         margin-left: auto;
         border-bottom-right-radius: 2px;
@@ -107,7 +107,7 @@ export default function Chatbot() {
       }
 
       .chat-input-area button {
-        background: #0a84ff;
+        background: #0a1f44;
         color: white;
         border: none;
         padding: 10px 14px;
@@ -116,7 +116,7 @@ export default function Chatbot() {
       }
 
       .chat-input-area button:hover {
-        background: #006edc;
+        background: #0a1f44;
       }
     `;
     document.head.appendChild(style);
