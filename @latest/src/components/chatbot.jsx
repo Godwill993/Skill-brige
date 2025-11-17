@@ -124,7 +124,10 @@ export default function Chatbot() {
   }, []);
 
   // ====== 🔑 INSERT YOUR API KEY HERE ======
+
     const apiKey = import.meta.env.VITE_API_KEY;
+
+
   // ==========================================
 
   // Send message to OpenAI API
