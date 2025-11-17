@@ -123,7 +123,7 @@ export default function Chatbot() {
   }, []);
 
   // ====== 🔑 INSERT YOUR API KEY HERE ======
-  const OPENAI_API_KEY = "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";
+  const OPENAI_API_KEY = "";
   // ==========================================
 
   // Send message to OpenAI API
