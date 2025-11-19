@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import.meta.env
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
@@ -123,7 +124,7 @@ export default function Chatbot() {
   }, []);
 
   // ====== 🔑 INSERT YOUR API KEY HERE ======
-  const OPENAI_API_KEY = "";
+    const apiKey = import.meta.env.VITE_API_KEY;
   // ==========================================
 
   // Send message to OpenAI API
@@ -140,7 +141,7 @@ export default function Chatbot() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${OPENAI_API_KEY}`,
+          Authorization: `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
